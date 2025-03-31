@@ -1,5 +1,5 @@
-import Link from "next/link";
+import { OptimizedLink } from "@/components/ui/optimized-link";
 
 export function BackLink() {
-    return <Link href={`/`}>{"<"} Back to feed</Link>;
+    return <OptimizedLink href={`/`}>{"<"} Back to feed</OptimizedLink>;
 }

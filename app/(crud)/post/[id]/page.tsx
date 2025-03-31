@@ -1,5 +1,3 @@
-"use client";
-
 import { ConvexHttpClient } from "convex/browser";
 
 import { Posts } from "../../_components/posts";
